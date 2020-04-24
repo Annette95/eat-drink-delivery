@@ -1,0 +1,57 @@
+.header-main {
+    margin-top: 72px;
+    transition: all 2s;
+    padding: 0;    
+}
+
+@media only screen and (min-width: 700px) {
+	.header-main {
+		/* margin-top: 200px; */
+		transition: all 2s;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery-wrap .img-big-wrap img {
+       height: auto;
+    }
+  }
+
+
+.intro {
+    background-image: url("../images/sushi2.jpg");
+	background-size: cover;
+}
+    
+.text-center {
+    text-align: center;
+}
+
+/* stiluri pentru pagina Contacte */
+/* proprietati pentru pagina contacte */
+/* copiate */
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  /* adaugate */
+  .md-form i {
+      background: #d3e0df;
+      padding: 10px;
+      border-radius: 4px;
+  }
+  .ic i {
+      background: #d3e0df;
+      padding: 15px;
+      border-radius: 100%;
+  }
